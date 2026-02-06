@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Design Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Montserrat:wght@700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="top-bar">
+      <span class="top-bar__label" data-edit-key="brandLabel">DESIGN</span>
+
+      <nav class="top-bar__tags">
+        <button class="tag active" data-edit-key="tagMain">3D DESIGN</button>
+        <button class="tag" data-edit-key="tagSecondary">AI GENERATED IMAGES</button>
+      </nav>
+
+      <div class="top-bar__auth">
+        <button id="login-btn" class="cloud-button" title="تسجيل الدخول السحابي">
+          <span class="cloud-icon" aria-hidden="true"></span>
+          <span class="cloud-button__label">Login</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="hero">
+      <section class="hero__left">
+        <h1 class="hero__title" data-edit-key="mainTitle">
+          PORTEFOLIO
+        </h1>
+
+        <div class="hero__subtitle" data-edit-key="subtitle">
+          <span>3D DESIGN</span>
+        </div>
+
+        <div class="hero__years">
+          <span class="badge" data-edit-key="years">2018 - 2022</span>
+        </div>
+
+        <div class="hero__contact">
+          <div class="contact-card">
+            <div class="contact-card__label" data-edit-key="contactLabel">CONTACT ME</div>
+            <div class="contact-card__info">
+              <p data-edit-key="phone"><strong>TEL</strong> / 0933 954 690</p>
+              <p data-edit-key="email"><strong>EMAIL</strong> / hieu3d@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero__center">
+        <!-- مكان للصورة أو الـ 3D Render -->
+        <div class="characters" data-edit-key="cardImage">
+          <button class="image-edit-button" type="button" title="تغيير الصورة"></button>
+          
+          <div class="characters__base">
+            <span class="nameplate" data-edit-key="nameplate">HIEU LE</span>
+          </div>
+        </div>
+      </section>
+
+      <aside class="hero__right">
+        <button class="vertical-pill" data-edit-key="profileLabel">PROFILE</button>
+      </aside>
+    </main>
+
+    <section class="experience-strip" aria-label="Featured 3D experiences">
+      <div class="experience-strip__inner">
+        <article class="experience-card experience-card--far-left">
+          <div class="experience-card__badge" data-edit-key="card1Badge">Off 30%</div>
+          <div class="experience-card__image experience-card__image--nature"></div>
+          <div class="experience-card__body">
+            <h3 class="experience-card__title" data-edit-key="card1Title">
+              Nature-Themed
+            </h3>
+            <p class="experience-card__text" data-edit-key="card1Details">
+              Relaxing fantasy scenes surrounded by glowing forests and soft light.
+            </p>
+            <p class="experience-card__tools" data-edit-key="card1Tools">
+              Blender · Photoshop
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card experience-card--left">
+          <div class="experience-card__badge" data-edit-key="card2Badge">Off 10%</div>
+          <div class="experience-card__image experience-card__image--ocean"></div>
+          <div class="experience-card__body">
+            <h3 class="experience-card__title" data-edit-key="card2Title">
+              Ocean Adventure
+            </h3>
+            <p class="experience-card__text" data-edit-key="card2Details">
+              Dive into stylized worlds with friendly characters and vivid colors.
+            </p>
+            <p class="experience-card__tools" data-edit-key="card2Tools">
+              Blender · Substance Painter
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card experience-card--center">
+          <div class="experience-card__badge" data-edit-key="card3Badge">Off 15%</div>
+          <div class="experience-card__image experience-card__image--space"></div>
+          <div class="experience-card__body">
+            <h3 class="experience-card__title" data-edit-key="card3Title">
+              Space Explorer
+            </h3>
+            <p class="experience-card__text" data-edit-key="card3Details">
+              Embark on thrilling journeys through galaxies and discover alien worlds.
+            </p>
+            <p class="experience-card__tools" data-edit-key="card3Tools">
+              Blender · After Effects
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card experience-card--right">
+          <div class="experience-card__badge" data-edit-key="card4Badge">Off 5%</div>
+          <div class="experience-card__image experience-card__image--adventure"></div>
+          <div class="experience-card__body">
+            <h3 class="experience-card__title" data-edit-key="card4Title">
+              Neon Adventure
+            </h3>
+            <p class="experience-card__text" data-edit-key="card4Details">
+              Dynamic neon-lit environments perfect for action and motion graphics.
+            </p>
+            <p class="experience-card__tools" data-edit-key="card4Tools">
+              Cinema 4D · Octane
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card experience-card--far-right">
+          <div class="experience-card__badge" data-edit-key="card5Badge">Off 35%</div>
+          <div class="experience-card__image experience-card__image--party"></div>
+          <div class="experience-card__body">
+            <h3 class="experience-card__title" data-edit-key="card5Title">
+              Party Scene
+            </h3>
+            <p class="experience-card__text" data-edit-key="card5Details">
+              Playful indoor scenes full of balloons, characters and vivid props.
+            </p>
+            <p class="experience-card__tools" data-edit-key="card5Tools">
+              Blender · Photoshop · Illustrator
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <button
+        class="experience-strip__nav-button experience-strip__nav-button--prev"
+        type="button"
+        data-experience-nav="prev"
+        aria-label="Previous project"
+      >
+        ‹
+      </button>
+      <button
+        class="experience-strip__nav-button experience-strip__nav-button--next"
+        type="button"
+        data-experience-nav="next"
+        aria-label="Next project"
+      >
+        ›
+      </button>
+    </section>
+
+    <!-- Running auctions section (added) -->
+    <section class="running-auctions" aria-label="Running auctions">
+      <div class="page-block">
+        <div class="running-auctions__header">
+          <h2>Running auctions</h2>
+          
+        </div>
+
+        <div class="auction-grid" id="auction-grid">
+          <!-- 8 cards to match the design layout -->
+          <!-- Card template repeated -->
+          <article class="auction-card">
+            <div class="auction-card__media">
+              <span class="time-badge">08:10:00</span>
+              <button class="fave" aria-label="favorite">♡</button>
+              <div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/262641/FFF?text=Item+1');" data-image-url="https://placehold.co/400x300/262641/FFF?text=Item+1"></div>
+            </div>
+            <div class="auction-card__body">
+              <div class="auction-card__avatars"> 
+                <span class="avatar"></span>
+                <span class="avatar"></span>
+                <span class="avatar"></span>
+              </div>
+              <h3 class="auction-card__title">#00013</h3>
+              <p class="auction-card__meta">Highest Bid 1/1</p>
+              <div class="auction-card__price">Price <strong>0.047 ETH</strong></div>
+            </div>
+          </article>
+
+          <!-- copy/paste simplified cards (7 more) -->
+          <article class="auction-card"><div class="auction-card__media"><span class="time-badge">10:40:00</span><button class="fave">♡</button><div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/1e1e2f/FFF?text=Item+2');" data-image-url="https://placehold.co/400x300/1e1e2f/FFF?text=Item+2"></div></div><div class="auction-card__body"><div class="auction-card__avatars"><span class="avatar"></span><span class="avatar"></span></div><h3 class="auction-card__title">Dearded ape Teen Club</h3><p class="auction-card__meta">Highest Bid 1/1</p><div class="auction-card__price">Price <strong>0.023 ETH</strong></div></div></article>
+          <article class="auction-card"><div class="auction-card__media"><span class="time-badge">03:45:00</span><button class="fave">♡</button><div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/2a2a40/FFF?text=Item+3');" data-image-url="https://placehold.co/400x300/2a2a40/FFF?text=Item+3"></div></div><div class="auction-card__body"><div class="auction-card__avatars"><span class="avatar"></span></div><h3 class="auction-card__title">Baris</h3><p class="auction-card__meta">Highest Bid 1/1</p><div class="auction-card__price">Price <strong>0.034 ETH</strong></div></div></article>
+          <article class="auction-card"><div class="auction-card__media"><span class="time-badge">02:30:00</span><button class="fave">♡</button><div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/151520/FFF?text=Item+4');" data-image-url="https://placehold.co/400x300/151520/FFF?text=Item+4"></div></div><div class="auction-card__body"><div class="auction-card__avatars"><span class="avatar"></span><span class="avatar"></span><span class="avatar"></span></div><h3 class="auction-card__title">Azuka Ape</h3><p class="auction-card__meta">Highest Bid 1/1</p><div class="auction-card__price">Price <strong>0.041 ETH</strong></div></div></article>
+          <article class="auction-card"><div class="auction-card__media"><span class="time-badge">09:10:00</span><button class="fave">♡</button><div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/303050/FFF?text=Item+5');" data-image-url="https://placehold.co/400x300/303050/FFF?text=Item+5"></div></div><div class="auction-card__body"><div class="auction-card__avatars"><span class="avatar"></span></div><h3 class="auction-card__title">R66 Void</h3><p class="auction-card__meta">Highest Bid 1/1</p><div class="auction-card__price">Price <strong>0.024 ETH</strong></div></div></article>
+          <article class="auction-card"><div class="auction-card__media"><span class="time-badge">12:40:00</span><button class="fave">♡</button><div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/202030/FFF?text=Item+6');" data-image-url="https://placehold.co/400x300/202030/FFF?text=Item+6"></div></div><div class="auction-card__body"><div class="auction-card__avatars"><span class="avatar"></span><span class="avatar"></span></div><h3 class="auction-card__title">Dearded Club</h3><p class="auction-card__meta">Highest Bid 1/1</p><div class="auction-card__price">Price <strong>0.057 ETH</strong></div></div></article>
+          <article class="auction-card"><div class="auction-card__media"><span class="time-badge">05:45:00</span><button class="fave">♡</button><div class="auction-card__image" style="background-image: url('https://placehold.co/400x300/252535/FFF?text=Item+7');" data-image-url="https://placehold.co/400x300/252535/FFF?text=Item+7"></div></div><div class="auction-card__body"><div class="auction-card__avatars"><span class="avatar"></span></div><h3 class="auction-card__title">Electric Leaf</h3><p class="auction-card__meta">Highest Bid 1/1</p><div class="auction-card__price">Price <strong>0.003 ETH</strong></div></div></article>
+        </div>
+        
+        <button id="add-auction-btn" class="auction-add-btn">+ Add Auction Card</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Project Detail Modal (New) -->
+  <div id="project-modal" class="project-modal">
+    <button class="project-modal__close" id="project-modal-close">&times;</button>
+    <div class="project-modal__content">
+      <div id="project-modal-images" class="project-modal__images-container"></div>
+      <div class="project-modal__info">
+        <h2 id="project-modal-title">Project Title</h2>
+        <p id="project-modal-meta">Details</p>
+        <div id="project-modal-price"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- نافذة تسجيل الدخول بالبريد/كلمة المرور -->
+  <div id="login-overlay" class="login-overlay"></div>
+  <div id="login-modal" class="login-modal" aria-hidden="true">
+    <div class="login-modal__card">
+      <button class="login-modal__close" type="button" aria-label="إغلاق">
+        &times;
+      </button>
+      <h2 class="login-modal__title">تسجيل الدخول</h2>
+      <form id="auth-form" class="login-modal__form" autocomplete="on">
+        <label class="login-modal__field">
+          <span>البريد الإلكتروني</span>
+          <input type="email" id="auth-email" required />
+        </label>
+        <label class="login-modal__field">
+          <span>كلمة المرور</span>
+          <input type="password" id="auth-password" minlength="6" required />
+        </label>
+        <div id="auth-error" class="login-modal__error"></div>
+        <button type="submit" class="login-modal__submit">تسجيل الدخول</button>
+        <button type="button" id="toggle-auth-mode" class="login-modal__toggle">
+          حساب جديد؟ إنشاء حساب
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ربط سكربت الموقع + Firebase كموديول حديث -->
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
